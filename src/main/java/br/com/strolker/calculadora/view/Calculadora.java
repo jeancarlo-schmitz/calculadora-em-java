@@ -10,9 +10,8 @@ import main.java.br.com.strolker.calculadora.configs.ConfiguracaoTelaPrincipal;
 public class Calculadora extends JFrame{
 
 	public Calculadora() {
-		ConfiguracaoTelaPrincipal.inicializaTela(this);
-		
 		organizaLayoutTela();
+		ConfiguracaoTelaPrincipal.inicializaTela(this);
 	}
 
 	private void organizaLayoutTela() {
